@@ -195,3 +195,56 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.current-target-section{
+    width: 1140px;
+    height: 1445px;
+    /* margin: 149px 0px; */
+    margin-top: 149px;
+    border: 2px solid red;
+}
+
+.current-target-section-text{
+    width: 946px;
+    height: 115px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.current-target-section-card-container{
+    width: 1140px;
+    height: 300px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.card-container-1{
+    width: 284px;
+    height: 220px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    border: 2px solid red;
+}
+
+.card-container-2{
+    width: 284px;
+    height: 220px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    border: 2px solid red;
+}
+
+.card-container-3{
+    width: 284px;
+    height: 220px;
+    background-color:rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    border: 2px solid red;
+}

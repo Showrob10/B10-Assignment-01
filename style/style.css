@@ -12,7 +12,23 @@ body{
 .nav-bar{
     height: 131px;
     max-width: 1440px;
-    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download-btn{
+    width: 228px;
+    height: 58px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
 }
 
 .main-banner{
@@ -27,6 +43,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    border: 2px dotted rgba(0, 0, 0, 0.174) ; 
 }
 
 .Programmer-img{
@@ -38,10 +55,6 @@ body{
     margin: 32px, 0px;
     padding: 0, auto;
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 .contact-btn{
@@ -55,6 +68,7 @@ body{
     color: white;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .web-development{
@@ -66,7 +80,6 @@ body{
     border-radius:16px ;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 
 }
@@ -77,13 +90,11 @@ body{
     margin: 154px 0px;
     padding: 0px;
     text-align: center;
-    /* border: 2px solid red ; */
 }
 
 .section-one-container{
     width: 850px;
     height: 240px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
@@ -100,14 +111,12 @@ body{
 .section-three-text-container {
     width: 477px;
     height: 220px;
-    /* border: 2px solid red; */
     color: rgba(13, 19, 33, 0.7);
 }
 
 .section-one-img-container{
     width: 274.17px;
     height: 240px;
-    /* border: 2px solid red; */
     
 }
 
@@ -121,13 +130,12 @@ body{
     letter-spacing: 0%;
     text-align: center;
     background-color: white; 
+    cursor: pointer;
 }
 
 .section-two-container{
     width: 850px;
     height: 240px;
-    /* border: 2px solid red; */
-
     display: flex;
     flex-direction: row;
     justify-content: space-around ;
@@ -145,7 +153,6 @@ body{
 .section-two-img-container{
     width: 223.2px;
     height: 208.85px;
-    /* border: 2px solid red; */
     
 }
 
@@ -153,7 +160,6 @@ body{
 .section-three-container{
     width: 850px;
     height: 240px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
@@ -176,12 +182,12 @@ body{
     letter-spacing: 0%;
     text-align: center;
     background-color: white; 
+    cursor: pointer;
 }
 
 .my-inspiration-text{
     width: 852px;
     height: 115px;
-    /* border: 2px solid red; */
     margin: 88px;
     text-align: center;
 }
@@ -189,7 +195,6 @@ body{
 .my-inspiration-video-container{
     width: 1140px;
     height: 614px;
-    /* border: 2px solid red; */
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     display: flex;
@@ -204,14 +209,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid red; */
 }
 
 .current-target-section-text{
     width: 946px;
     height: 115px;
     text-align: center;
-    /* border: 2px solid red; */
 }
 
 .current-target-section-card-container{
@@ -222,7 +225,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
 
 }
 
@@ -232,7 +234,6 @@ body{
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
     padding: 40px;
-    /* border: 2px solid red; */
 
 }
 
@@ -242,7 +243,6 @@ body{
     background-color: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
     padding: 40px;
-    /* border: 2px solid red; */
 }
 
 .card-container-3{
@@ -250,46 +250,70 @@ body{
     height: 220px;
     background-color:rgba(255, 223, 0, 0.05);
     border-radius: 16px;
-    padding: 40px;
-    /* border: 2px solid red; */
+    padding: 40px
 }
 
 .learn-more{
     text-decoration: underline;
 }
 
-.footer-image-container{
+.footer-container{
     width: 1140px;
     height: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 41px;
-    /* padding: 64px 48px 64px 48px; */
     border-radius: 16px;
     background-image: url(/assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    /* border: 2px solid red; */
+    background-size: cover; 
+    background-color: rgba(7, 0, 47, 0.5) ;
+    background-blend-mode: overlay;
 }
+
+
+/* .footer-container{
+    background-color: rgba(0, 0, 0, 0.5) ;
+} */
+
+/* .footer-btn::before{
+    content: ;
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient rgba(0, 0, 0, 0.5), rgba(25, 8, 55, 0.5);
+    z-index: 1;
+} */
 
 .footer-data-container{
     width: 100%;
     height: 100%px;
     padding: 64px 48px 64px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-text-container{
     color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 730px;
+    height: 104px;
+    margin-bottom: 24px;
 }
 
-.footer{
+#footer{
     width: 1140px;
     height: 36px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* border: 2px solid red; */
     padding: 32px 150px 32px 150px;
     margin-top: 89px;
     border-radius: 16px;
@@ -297,10 +321,39 @@ body{
     border-radius: 16px;
 }
 
+.input-container{
+    width: 684px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-field{
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.footer-btn{
+    width: 120px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
 .social-media-icons{
     width: 157.01px;
     height: 36px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;

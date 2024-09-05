@@ -170,6 +170,7 @@ body{
     padding: 48px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 120px;
 }
 
 .btn-learn-more-v3{
@@ -188,8 +189,8 @@ body{
 .my-inspiration-text{
     width: 852px;
     height: 115px;
-    margin: 88px;
-    text-align: center;
+    margin: auto;
+    text-align: center
 }
 
 .my-inspiration-video-container{
@@ -200,6 +201,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .current-target-section{

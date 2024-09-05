@@ -30,7 +30,7 @@ body{
 }
 
 .Programmer-img{
-    margin-top: 26px 32px;
+    margin-bottom: 32px;
 }
 .main-text-container{
     width: 998px;
@@ -200,17 +200,18 @@ body{
 .current-target-section{
     width: 1140px;
     height: 1445px;
-    /* margin: 149px 0px; */
     margin-top: 149px;
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
 }
 
 .current-target-section-text{
     width: 946px;
     height: 115px;
     text-align: center;
-    border: 2px solid red;
-    padding-left: 90px;
+    /* border: 2px solid red; */
 }
 
 .current-target-section-card-container{
@@ -221,7 +222,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -231,7 +232,7 @@ body{
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
     padding: 40px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -241,7 +242,7 @@ body{
     background-color: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
     padding: 40px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .card-container-3{
@@ -250,7 +251,7 @@ body{
     background-color:rgba(255, 223, 0, 0.05);
     border-radius: 16px;
     padding: 40px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .learn-more{
@@ -267,7 +268,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .footer-data-container{
@@ -279,4 +280,28 @@ body{
 .footer-text-container{
     color: white;
     text-align: center;
+}
+
+.footer{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 32px 150px 32px 150px;
+    margin-top: 89px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+}
+
+.social-media-icons{
+    width: 157.01px;
+    height: 36px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
